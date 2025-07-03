@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a, h1, img {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    margin-top: 10px;
+}
+
+img {
+    margin: 0 auto 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p, ul, ol {
+    margin-bottom: 20px;
+}

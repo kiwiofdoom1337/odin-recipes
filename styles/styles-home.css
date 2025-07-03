@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 50px;
+    text-align: center;
+    font-family: 'Tahoma', sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', monospace;    
+}
+
+li {
+    list-style: none;
+}
+
+.cheese {
+    color: rgb(162, 162, 1);
+}
+
+.cookies {
+    color: brown;
+}
+
+.flatbread {
+    color: burlywood;
+}
